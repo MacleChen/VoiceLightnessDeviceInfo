@@ -40,6 +40,7 @@
 		67D6BCF51FD6899000410EA0 /* VoiceLightnessDeviceInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceLightnessDeviceInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D6BCF91FD6899000410EA0 /* VoiceLightnessDeviceInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceLightnessDeviceInfoUITests.m; sourceTree = "<group>"; };
 		67D6BCFB1FD6899000410EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D6BD051FD68AF800410EA0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				67D6BCDF1FD6899000410EA0 /* VoiceLightnessDeviceInfo */,
 				67D6BCF81FD6899000410EA0 /* VoiceLightnessDeviceInfoUITests */,
 				67D6BCDE1FD6899000410EA0 /* Products */,
+				67D6BD041FD68AF800410EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +103,14 @@
 				67D6BCFB1FD6899000410EA0 /* Info.plist */,
 			);
 			path = VoiceLightnessDeviceInfoUITests;
+			sourceTree = "<group>";
+		};
+		67D6BD041FD68AF800410EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D6BD051FD68AF800410EA0 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
